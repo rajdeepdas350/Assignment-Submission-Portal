@@ -1,0 +1,14 @@
+body::before{
+    content: '';
+    background-image: url('IMG/bg1.png');
+    height:100vh;
+    width:100vw;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    opacity: 0.6;
+    filter: blur(5px);
+}

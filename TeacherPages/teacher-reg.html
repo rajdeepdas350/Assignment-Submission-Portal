@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TEACHER REGISTRATION</title>
+    <link rel="stylesheet" href="../CSS/registration.css">
+    <link rel="stylesheet" href="../CSS/registration-style.css">
+</head>
+<body>
+    <h1 class="heading">ENTER YOUR DETAILS</h1>
+    <div class="col">
+        <form action="PHP/teacher-reg.php" method="post" target="_blank">
+            <div class="row">
+                <input type="text" name="name" required autocomplete="off">
+                <span class="desc">SET NAME</span>
+            </div>
+            <div class="row">
+                <input type="text" name="subject" required autocomplete="off">
+                <span class="desc">SET SUBJECT</span>
+            </div>
+            <div class="row">
+                <input type="text" name="username"required autocomplete="off">
+                <span class="desc">SET USERNAME</span>
+            </div>
+            <div class="row">
+                <input type="password" name="password" required autocomplete="off">
+                <span class="desc">SET PASSWORD</span>
+            </div>
+            <button type="submit">SIGN IN AS TEACHER</button>
+        </form>
+    </div>
+</body>
+
+</html>

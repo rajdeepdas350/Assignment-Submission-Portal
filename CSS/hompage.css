@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'consolas';
+    color: #333;
+}
+.heading{
+    font-weight: bold;
+    margin:45px;
+    font-size: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    letter-spacing: 5px;
+    pointer-events: none;
+}
+span{
+    font-size: 90px;
+    letter-spacing: 50px;
+    margin-left: 50px;
+}
+body{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+#login{
+    display: block;
+    width:664.8px;
+}
+button{
+    width: 308px;
+    margin: 15px 20px;
+    border:none;
+    border-radius: 12px;
+    background-color: #4eb1b3;
+    color:#fff;
+    font-size: 28px;
+    padding: 8px 0;
+    font-weight: bold;
+    outline: none;
+    text-transform: uppercase;
+}
+button:hover{
+    background-color: #3b8687;
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 0.4s;
+    box-shadow: #b3b0b0 0 0 9px;
+}
+button:not(:hover){
+    transition: 0.4s;
+}

@@ -1,0 +1,61 @@
+#modal{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    transform: scale(0.1);
+    transition: 0.4s;
+    border-radius: 20px;
+    box-shadow: 0 0 9px #b3b0b0;
+    height:700px;
+    width:800px;
+    backdrop-filter: blur(19px);
+}
+.upBtn{
+    width:200px;
+}
+.cBtn{
+    margin: 10px 25px;
+}
+p{
+    padding: 5px;
+}
+.brow{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+.cancel{
+    background: #be4a4a;
+}
+.cancel:hover{
+    background: #b64242;
+
+}
+.uinp{
+    width:550px;
+    font-size: 20px;
+    border-radius: 8px;
+    margin:10px;
+    border:1px solid #d3d0d0;
+    padding:12px;
+}
+p{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 19px;
+    padding:5 15px;
+}
+.description{
+    font-weight: normal;
+    text-transform: capitalize;
+    color:#888;
+}
+.ans{
+    margin:20px;
+    font-size: 45px;
+}

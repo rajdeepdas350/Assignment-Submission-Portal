@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>STUDENT REGISTRATION</title>
+    <link rel="stylesheet" href="../CSS/registration.css">
+    <link rel="stylesheet" href="../CSS/registration-style.css">
+</head>
+<body>
+    <h1 class="heading">ENTER YOUR DETAILS</h1>
+    <div class="col">
+        <form action="PHP/student-reg.php" method="post" target="_blank">
+            <div class="row">
+                <input type="text"  required autocomplete="off" name="name">
+                <span class="desc">SET NAME</span>
+            </div>
+            <div class="row">
+                <input type="text"  required autocomplete="off" name="branch">
+                <span class="desc">SET BRANCH</span>
+            </div>
+            <div class="row">
+                <input type="text"  required autocomplete="off" name="semester">
+                <span class="desc">SET SEMESTER</span>
+            </div>
+            <div class="row">
+                <input type="text"  required autocomplete="off" name="rollno">
+                <span class="desc">SET ROLL NO</span>
+            </div>
+            <div class="row">
+                <input type="text"  required autocomplete="off" name="username">
+                <span class="desc">SET USERNAME</span>
+            </div>
+            <div class="row">
+                <input type="password"  required autocomplete="off" name="password">
+                <span class="desc">SET PASSWORD</span>
+            </div>
+            <button type="submit">SIGN IN AS STUDENT</button>
+        </form>
+    </div>
+</body>
+</html>

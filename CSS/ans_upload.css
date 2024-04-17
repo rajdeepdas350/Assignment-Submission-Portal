@@ -1,0 +1,34 @@
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:20px;
+    border-radius: 15px;
+    background-color: #44b578;
+    box-shadow: #a9a9a9 0 0 19px;
+    animation: zoomin 0.4s 1;
+}
+p{
+    font-weight: bold;
+    font-size: 20px;
+    margin: 15px;
+    color: #fff;
+}
+h1{
+    font-size: 50px;
+    letter-spacing: 10px;
+    color: #fff;
+}
+.date{
+    font-size: 20px;
+    color: #fff;
+}
+
+@keyframes zoomin{
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USER LOGIN</title>
+    <link rel="stylesheet" href="CSS/login.css">
+</head>
+<body>
+    <h1>USER LOGIN</h1>
+    <div class="col">
+        <form action="PHP/login.php" method="post">
+            <div class="row">
+                <p>USERNAME: </p>
+                <input type="text" placeholder="Enter your username here" required autocomplete="off" name="username">
+            </div>
+            <div class="row">
+                <p>PASSWORD:</p>
+                <input type="password" placeholder="Enter your password here" required autocomplete="off" name="password">
+            </div>
+            <div class="row">
+                <p>YOU ARE:</p>
+                <select name="individual">
+                    <option value="" selected>--select--</option>
+                    <option value="teacher_reg">Teacher</option>
+                    <option value="student_reg">Student</option>
+                </select>
+            </div>
+            <button type="submit">LOGIN</button>
+        </form>
+    </div>
+</body>
+</html>
